@@ -1,0 +1,38 @@
+body {
+    margin: 0 ;
+}
+
+/* profile */
+.img {
+    justify-content: center;
+}
+
+#profile-img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #4c6174 ;
+    transform: scale(1) ;
+    border-radius: 72%;
+}
+
+.menu-bar {
+    position: fixed;
+    border: 0;
+    background-color: #4c6174;
+    display: block;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index {
+    text-align: left ;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-intro {
+    text-align: center ;
+}
